@@ -1,0 +1,152 @@
+.placeholder {
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+}
+
+.Logo {
+    margin-top: 57px;
+}
+
+img {
+    width: 393px;
+    height: 225px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.conteiner {
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+}
+
+button {
+    margin-left: 15px;
+}
+
+.btn-login {
+    display: block;
+    justify-content: center;
+    margin-top: 30px;
+
+
+}
+
+.logo-2 {
+    width: 210px;
+    height: 309px;
+}
+
+.btn-ems {
+    display: flex;
+    justify-content: center;
+}
+
+label {
+    color: #001D56;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 20px;
+    display: flex;
+}
+
+input {
+    border-radius: 8px;
+    border: 1px solid #001D56;
+    background: #DCD7FF;
+    width: 621px;
+    height: 46px;
+
+}
+
+button {
+    width: 180px;
+    height: 46px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    border: 1px solid #001D56;
+    cursor: pointer;
+
+    background: #FCFE00;
+}
+
+.btnl {
+    width: 180px;
+    height: 46px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    border: 1px solid #001D56;
+    background: #FE0207;
+
+}
+
+.btnl:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    background: #fe0206cc;
+}
+
+.btnc:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    background: #fefe00bd;
+}
+
+P {
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0;
+
+}
+
+
+.LOGIN {
+    color: #001D56;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    
+}
+
+a {
+
+    color: #001D56;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 20px;
+}
+
+.im1 {
+    display: flex;
+    margin-right: 0px;
+    width: 960px;
+    height: 37px;
+}
+
+.im2 {
+    display: flex;
+    margin-left: 0px;
+    width: 960px;
+    height: 37px;
+}
+
+footer {
+    display: flex;
+
+}
+
+body {
+    margin: 0;
+}
