@@ -1,0 +1,9 @@
+body{
+    background-image: url("Vector1.png");
+    background-repeat: no-repeat;
+    background-size: 655px ;
+    background-position-x: 100%;
+}
+div{
+    margin: 20px ;
+}
