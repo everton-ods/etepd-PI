@@ -4,39 +4,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>ETEPD</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
-    <img class="Logo" src="image 1.png" alt="logo" |>
+    <div class="container">
+        <div class="p-logo">
+            <img class="position-logo" src="img/image 1.png" alt="logo">
+        </div>
+        <div class="text">
+            Login
+        </div>
+        <form action="http://127.0.0.1:5500/perfil.html">
+            <div class="form-row">
+                <div class="input-data">
+                    <input type="text" required>
+                    <div class="underline"></div>
+                    <label for="">Usuário</label>
+                </div>
+            </div>
 
-    <div class="placeholder">
-        <form>
-            <label for="cpf"><P class="LOGIN">CPF</P></label><br>
-            <input type="cpf" name="cpfId" pattern="[0-9]{11}">
-            <br>
-            <label for="password"><P class="LOGIN">SENHA</P></label><br>
-            <input type="password" name="passwordId">
+            <div class="form-row">
+                <div class="input-data">
+                    <input type="password" required>
+                    <div class="underline"></div>
+                    <label for="">Senha </label>
+                </div>
+
+            </div>
+            <div class="recuperar">
+                <a href="#">Recuperar Senha</a>
+            </div>
+
+
+            <div class="form-row submit-btn">
+                <div class="input-data">
+                    <div class="inner"></div>
+                    <input type="submit" value="ENTRAR">
+
+                </div>
+                
+            </div>
+
+        </form>
+        <form class="lugar-form" action="http://127.0.0.1:5500/Cadastro.html">
+            <div class="form-row submit-btn">
+                <div class="input-data">
+                    <div class="inner inner2"></div>
+                    <input type="submit" onclick="redirecionar()" value="CADASTRO">
+
+                </div>
+            </div>
         </form>
     </div>
-    <div class="conteiner">
-        <div class="btn-login">
-            <button class="btnl"><p>LOGIN</p></button>
-            <button class="btnc"><P>CADASTRO</P></button>
-            <br>
-            
-        </div>
-    </div>
-    <div class="btn-ems">
-        <a href="#">esqueci minha senha</a>
-    </div>
-    <img class="logo-2" src="image 2.png" alt="logo footer" |>
-    <footer>
-        <img class="im2" src="Barra 2.png" alt="barra1"/>
-        <img class="im1" src="Barra 1.png" alt="barra2"/>
-        
-    </footer>
+    <script src="javascript/app.js"></script>
 </body>
 
 </html>
