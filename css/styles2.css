@@ -1,28 +1,77 @@
-.fundo{
-    BACKGROUND-COLOR: bisque;
+.fundo {
+  BACKGROUND-COLOR: rgba(245, 242, 238, 0.836);
 }
-.img-bt{
-    margin-top: 10.3%;
+
+.img-bt {
+  position: absolute;
+  margin-top: 14.2%;
+  opacity: 0.90;
+  display: none;
 }
+
 .center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-  }
+  position: absolute;
+  width: 200px;
+  height: 250px;
+  margin-left: 6%;
+  display: none;
+
+}
+label{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+.btn{
+  border-radius: 0px;
+}
+
 .center1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+  opacity: 0.90;
+
+}
+
+.alinhar {
+  margin-left: 64%;
+}
+.back{
+  background-color: #ffffffa4;
+  padding: 10%;
+  border: solid 1px gray;
+  margin-top: 15%;
+  border-radius: 5%;
+}
+
+.btn-size {
+  width: 49%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #1f0166da;
+
+
+}
+.btn-size2 {
+  width: 49%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(226, 226, 16);
+
+
+}
+
+body {
+  background-image: url("ground-zero-2014135_1920.jpg");
+  background-repeat: no-repeat;
+
+}
+/*@media screen and (min-width: 1281px){
+  .center{
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10%;
-    
   }
-  .alinhar{
-    margin-left: 64%;
+  .img-bt{
+    display: block;
   }
-  .btn-size{
-    width: 48%;
-    margin-left: auto;
-    margin-right: auto;
-    
-  }
+}

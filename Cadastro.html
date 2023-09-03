@@ -1,67 +1,88 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Bootstrap demo</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
   <link rel="stylesheet" href="css/Cadastro.css">
 </head>
 
 <body>
-  <h1>Hello, world!</h1>
-  <div>
-    <form>
-      <div class="mb-1">
-        <label for="InputNome" class="form-label">NOME</label>
-        <input type="text" class="form-control" id="InputNome">
-        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+  <img class="position-logo" src="img/image 3 (1).png" alt="logo">
+  <div class="container">
+    <div class="text">
+      Cadastro
+    </div>
+    <form action="#">
+      <div class="form-row">
+        <div class="input-data">
+          <input type="text" required>
+          <div class="underline"></div>
+          <label for="">Nome Completo</label>
+        </div>
+        <div class="input-data">
+          <input type="text" required>
+          <div class="underline"></div>
+          <label for="">Nome Social</label>
+        </div>
       </div>
-      <div class="mb-2">
-        <label for="InputNomeSocial" class="form-label">NOME SOCIAL</label>
-        <input type="text" class="form-control" id="InputNomeSocial"> 
+      <div class="form-row">
+        <div class="input-data">
+          <input type="text" required>
+          <div class="underline"></div>
+          <label for="">Email </label>
+        </div>
+        <div class="input-data">
+          <input type="text" required>
+          <div class="underline"></div>
+          <label for="">Cpf</label>
+        </div>
       </div>
-      <div class="mb-3">
-        <label for="ImputCpf" class="form-label">CPF</label>
-        <input type="text" class="size-input form-control" id="inputCpf">
-        <label for="InputEmail" class="form-label">EMAIL</label>
-        <input type="email" class="size-input form-control" id="InputEmail">
-      
+      <div class="form-row">
+        <div class="input-data">
+          <input type="date" required>
+          <div class="underline"></div>
+          <label for="">Data Nascimento </label>
+        </div>
+        <div class="input-data">
+          <select name="Turma" id="" required>
+            <option value=""></option>
+            <option value="australia">Australia</option>
+            <option value="canada">Canada</option>
+            <option value="usa">USA</option>
+            <div class="underline"></div>
+          </select>
+          <label for="">Selecione a Turma</label>
+        </div>
       </div>
-      <div class="mb-4">
-        <label for="InputData" class="form-label">DATA NASCIMENTO</label>
-        <input type="date" class="size-input form-control" id="InputData">
-        <label for="exampleInputPassword" class="form-label">SENHA</label>
-        <input type="password" class="size-input form-control" id="InputPassword">
-      
-      </div>
-      
-      <div class="mb-5">
+      <div class="form-row">
+        <div class="input-data">
+          <input type="password" required>
+          <div class="underline"></div>
+          <label for="">Senha </label>
+        </div>
+        <div class="input-data">
+          <input type="password" required>
+          <div class="underline"></div>
+          <label for="">Confirmar Senha </label>
+        </div>
         
-        <label for="InputPasswordConf" class="form-label">CONFIR. SENHA</label>
-        <input type="password" class="size-input form-control" id="InputPasswordConf">
-        <label for="InputTurma" class="form-label">TURMA</label>
-        <input type="text" class="size-input form-control" id="InputTurma">
-        
-      </div>
-      <div class="mb-6">
-        <label for="InputTurno" class="form-label">TURNO</label>
-        <input type="TEXT" class="form-control" id="InputTurno">
       </div>
 
-      <div class="mb-3 form-check">
-        <input type="checkbox" class="form-check-input" id="exampleCheck1">
-        <label class="form-check-label" for="exampleCheck1">declaro que aceito as Políticas de Privacidade e os Termos de Uso da Escola Técnica Estadual Porto Digital.</label>
-      </div>
-      <button type="submit" class="btn btn-primary">Submit</button>
+
+      
+      
+      <div class="form-row submit-btn">
+            <div class="input-data">
+              <div class="inner"></div>
+              <input type="submit" value="submit">
+              
+            </div>
+       </div>
+        
     </form>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
-      crossorigin="anonymous"></script>
   </div>
-
 </body>
 
 </html>
