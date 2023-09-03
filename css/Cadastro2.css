@@ -73,7 +73,7 @@ input[type=submit] {
         width: 58%;
         display: flex;
         margin-left: 0;
-        background-color: rgba(31, 1, 102, 0.856);
+        background-color: #1f0166da;
         position: relative;
     }
 
