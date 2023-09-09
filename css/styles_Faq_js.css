@@ -37,7 +37,7 @@ section {
 }
 
 .sec-left , .sec-right {  
-  margin: 0 auto 0;
+  margin: 0 auto;
   flex-direction: column;
   justify-content: center;
   
@@ -79,7 +79,12 @@ section h2 {
   max-height: 0;
   overflow: hidden;
   transition: max-height 1.4s ease;
+  padding-left: 5%;
+  text-align: justify;
 }
+
+
+
 
 .faq.active .answer {
   max-height: 300px;

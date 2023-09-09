@@ -17,6 +17,7 @@ body {
     font-family: 'Poppins', sans-serif;
     background-image: url("ground-zero-2014135_1920.jpg");
     background-repeat: no-repeat;
+    backgrond-size: cover;
 }
 
 
@@ -26,14 +27,22 @@ body {
 }
 
 .p-logo {
+    
     text-align: center;
-    margin-top: -122px;
+        position: relative;
+        margin-top: -17%;
+        padding: 0 0 24px 0px;
+}
+footer{
+    background-color: #000;
+    display: flex;
+    
 }
 
 .container {
     max-width: 800px;
     background: #fff;
-    width: 800px;
+    width: 750px;
     padding: 25px 40px 10px 40px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     border-radius: 4px;
@@ -171,6 +180,11 @@ select:valid~label {
     margin-top: -83px;
 }
 
+.responsive {
+    width: 55%;
+    height: auto;
+}
+
 .submit-btn .input-data input {
     background: none;
     border: none;
@@ -204,9 +218,7 @@ input[type=date]:focus {
         font-size: 30px;
     }
 
-    .container form {
-        padding: 10px 0 0 0;
-    }
+   
 
     .container form .form-row {
         display: block;

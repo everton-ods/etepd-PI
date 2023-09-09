@@ -16,6 +16,8 @@ body {
     padding: 10px;
     font-family: 'Poppins', sans-serif;
     background-image: url("ground-zero-2014135_1920.jpg");
+    background-repeat: no-repeat;
+    backgrond-size: cover;
 }
 .position-logo{
         position: absolute;
