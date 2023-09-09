@@ -1,111 +1,190 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
 
-.Imagen_perfil{
-    width: 360px;
-    height: 300px;
-    margin-top: 75px;
-    margin-left: 10.5vw;
+* {
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.back {
     position: absolute;
-    border: none;
-    border-radius: 50%;
-    box-shadow: 0px 0px 10px rgb(0, 0, 0, 0.8);
-    
+    z-index: -2;
+    width: 100%;
+    height: 100vh;
+    opacity: 80%;
+
 }
 
-.Imagem-1{
+.backperfil {
     position: absolute;
-    width: 20%;
-    margin: -105px 0px 0px 65vw;
-}
-
-
-h1{
-color: #001D56;
-font-family: Lato;
-font-size: 80px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-margin-left: 3vw;
-margin-top: 10px;
-}
-
-hr{
-
-width: 800px;
-height: 8px;
-background: #001D56;
-opacity: 100%;
-
-}
-
-.backgroud-perfil{
+    z-index: -2;
     width: 100%;
     height: 100%;
-    position: absolute;
-    margin-top: -141px;
-    z-index: -1;
-    
+    opacity: 70%;
 
 }
 
-body{
-
-    background-image: url("ground-zero-2014135_1920.jpg");
-    background-size: cover;
-    
-}
-
-* {
-    font-family: calibri, sans-serif;
+body {
+    display: block;
     margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
+}
 
 .container {
-    width: 40vw;
-    height: 79vh;
-    border-radius: 5px;
-    background-color: #f2f2f2;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+
+
+
+
+}
+
+.col-1 {
+    margin: auto;
+    width: 50vw;
+    height: 90vh;
+
+
+
+}
+
+.col-2 {
+    margin: auto;
+    margin-top: 8%;
+    width: 50vw;
+    height: 60%;
     padding: 20px;
-    margin-left: 55vw;
-    margin-top: -24px;
-    align-items: center;
-    padding: 40px;
-    border: none;
-    box-shadow: 0px 0px 10px rgb(0, 0, 0, 0.8);
 
 }
-label{
-    font-size: 25px;
+
+.faq {
+    justify-content: end;
+    display: flex;
+    margin-top: 30px;
+
+
+}
+button{
+    margin: 10px;
 }
 
-p{
-    font-size: 18px;
-    border-bottom: 2px solid rgb(0, 0, 0, 0.12);
+.for {
+    background-color: rgba(255, 255, 255, 0.959);
+    width: 67%;
+    height: 89%;
+    padding: 50px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8);
+    margin: 27px 0px 0px 5vw;
+    border-radius: 10px;
 }
 
-form{
+form {
     margin-top: 50px;
 }
 
-.faq{
-    display: flex;
-    justify-content: end;
-}
-button{
+button {
     color: white;
     background-color: red;
     display: flex;
-    text-align: end ;
+    text-align: end;
     width: 70px;
     justify-content: center;
-    margin: 10px;
-    border: none;
 }
 
+.Logo {
+    position: absolute;
+    margin: 100px 0px 0px 64vw;
+    width: 20%;
+    opacity: 90%;
+}
+
+p {
+    border-bottom: 2px solid rgba(0, 0, 0, 0.12);
+    font-size: 18px;
+    width: 100%;
+}
+
+label {
+    font-size: 22px;
+}
+
+
+h1 {
+    color: #001D56;
+    font-family: inherit;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 10px;
+    margin-left: 3vw;
+
+
+}
+
+hr {
+    width: 100%;
+    height: 8px;
+    background: #001D56;
+    margin-top: -60px;
+    margin-left: 0;
+    border: none;
+
+
+
+}
+
+.foto {
+    position: absolute;
+    z-index: 1;
+    margin: 33vh 0px 0px 12vw;
+}
 .cor{
     background-color: #001D56;
-    
+}
+
+@media (max-width: 420px) {
+    body {
+        background-image: url("Design\ sem\ nome.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .back {
+        display: none;
+    }
+
+    .for {
+        width: 100%;
+        height: 123%;
+        margin: 38px 0px 0px -35vw;
+        padding: 60px;
+    }
+    .foto{
+        position: absolute;
+        z-index: 1;
+        margin: 5vh 0px 0px 23vw;
+        width: 210px;
+        border: 0.1px solid black;
+        border-radius: 50%;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8);
+    }
+    p{
+        font-size: 75%;
+    }
+    form{
+        margin-top: 50%;
+        margin-left: -9%;
+    }
+    h1{
+        display: none;
+    }
+    .Logo{
+        display: none;
+    }
+    .back{
+        display: none;
+    }
+    .backperfil{
+        display: none;
+    }
 }
