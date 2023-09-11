@@ -69,16 +69,16 @@ button{
 
 .for {
     background-color: rgba(255, 255, 255, 0.959);
-    width: 67%;
-    height: 89%;
+    width: 65%;
+    height: 110%;
     padding: 50px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8);
-    margin: 27px 0px 0px 5vw;
+    margin: 2vh 0px 0px 5vw;
     border-radius: 10px;
 }
 
 form {
-    margin-top: 50px;
+    margin-top: 3vh;
 }
 
 button {
@@ -92,7 +92,7 @@ button {
 
 .Logo {
     position: absolute;
-    margin: 100px 0px 0px 64vw;
+    margin: 87px 0px 0px 64vw;
     width: 20%;
     opacity: 90%;
 }
@@ -134,9 +134,11 @@ hr {
 }
 
 .foto {
+    width: 20vw;
+    height: 20vw;
     position: absolute;
     z-index: 1;
-    margin: 33vh 0px 0px 12vw;
+    margin: 31vh 0px 0px 12vw;
 }
 .cor{
     background-color: #001D56;
