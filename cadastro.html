@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="css/cadastro.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <img class="logo-header" src="img/logo.png" alt="logo-etepd">
+            <div class="mobile-menu">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+            <ul class="nav-list">
+                <li><a href="index.html">LOGIN</a></li>
+                <li><a href="sobrenos.html">SOBRE-NÓS</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="body-inter">
+        <main class="container">
+            <div class="container-inter">
+
+                <h2>CADASTRO</h2>
+                <form action="php/cadastrar.php" method="POST" enctype="multipart/form-data">
+                    <div class="input-field">
+                        <div class="input-field">
+                            <input type="text" name="nome" placeholder="Nome Completo" maxlength="30" required>
+                            <input type="text" name="telefone" placeholder="telefone" maxlength="30" required>
+                            <input type="text" name="email" placeholder="email" maxlength="30" required>
+                            <input type="password" name="senha" placeholder="senha" maxlength="30" required>
+                            <input placeholder="Data Nascimento" name="dataNascimento" type="text"
+                                onfocus="(this.type='date')" onblur="(this.type='text')" id="date" required>
+                            <input type="text" name="cpf" placeholder="CPF" maxlength="30" required>
+
+
+                            <select name="turma" id="select-form" required>
+                                <option value="">Selecione sua Turma</option>
+                                <option value="Desenvolvimento de Sistema I">Desenvolvimento de Sistema I - Turma Noite</option>
+                                <option value="Desenvolvimento de Sistema II">Desenvolvimento de Sistema II - Turma Noite</option>
+                                <option value="Desenvolvimento de Sistema III">Desenvolvimento de Sistema III - Turma Noite</option>
+                                <option value="Multimidia">Multimidia - Turma Noite</option>
+                            </select>
+
+
+
+                            <input type="text" name="nomeSocial" placeholder="Nome Social" maxlength="30" required>
+                            <input type="file" name="arquivo">
+                            <div class="btn-line">
+                                <input class="inputhover" type="submit" value="cadastrar" name="submit">
+
+                            </div>
+                        </div>
+
+                        <div class="btn-line">
+                            <a class="btn-voltar" href="index.html" id="signup">Voltar</a>
+
+                          
+
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </main>
+    </div>
+
+    <script src="js/mobile-navbar.js"></script>
+</body>
+
+</html>

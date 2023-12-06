@@ -1,66 +1,83 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="css/index.css" />
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ETEPD</title>
-    <link rel="stylesheet" href="css/styles.css">
-</head>
-
-<body>
-    
-    <div class="container">
-        <div class="p-logo">
-            <img class=" responsive" src="img/image 1.png" alt="logo" >
+  <body>
+    <header>
+      <nav>
+        <img class="logo-header" src="img/logo.png" alt="logo-etepd">
+        <div class="mobile-menu">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
         </div>
-        <div class="text">
-            Login
+        <ul class="nav-list">
+          <li><a href="index.html">LOGIN</a></li>
+          <li><a href="sobrenos.html">SOBRE-NÓS</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="line-header"></div>
+    <main>
+      <section class="home">
+        <div class="form_container">
+          <div class="form_container_inter">
+
+            <div class="form login_form">
+                <form action="php/login.php" method="POST">
+                    <h2>Login</h2>
+  
+                    <div class="input_box">
+                      
+                        <input name="usuario" name="text" placeholder="Digite seu email" autofocus="">
+                    </div>
+                    <div class="input_box">
+                        
+                        <input name="senha" type="password" placeholder="Digite sua senha">
+                    </div>
+  
+                    <div class="option_field">
+                        
+                        <!-- <a href="#" class="forgot_pw">Esqueceu a senha?</a> -->
+                        <button class="button">Entrar</button>
+                    </div>
+  
+                    
+                    <div class="login_signup">Não tem conta? <a href="cadastro.html" id="signup">Cadastre-se</a></div>
+                </form>
+            </div>
+          </div>
+            <!-- Login From -->
         </div>
-        <form action="http://127.0.0.1:5500/perfil.html">
-            <div class="form-row">
-                <div class="input-data">
-                    <input type="text" required>
-                    <div class="underline"></div>
-                    <label for="">Usuário</label>
-                </div>
-            </div>
 
-            <div class="form-row">
-                <div class="input-data">
-                    <input type="password" required>
-                    <div class="underline"></div>
-                    <label for="">Senha </label>
-                </div>
+    </section>
+    </main>
 
-            </div>
-            <div class="recuperar">
-                <a href="#">Recuperar Senha</a>
-            </div>
-
-
-            <div class="form-row submit-btn">
-                <div class="input-data">
-                    <div class="inner"></div>
-                    <input type="submit" value="ENTRAR">
-
-                </div>
-                
-            </div>
-
-        </form>
-        <form class="lugar-form" action="http://127.0.0.1:5500/Cadastro.html">
-            <div class="form-row submit-btn">
-                <div class="input-data">
-                    <div class="inner inner2"></div>
-                    <input type="submit" onclick="redirecionar()" value="CADASTRO">
-
-                </div>
-            </div>
-        </form>
     
-    </div>
-    <script src="javascript/app.js"></script>
-</body>
+    <footer class="footer">
+      <div class="social">
+          <ul class="ul-footer">
+              <li>
+                  <a class="img-social" target="_blank" href="https://www.facebook.com/eteportodigital"><img src="img/rede-fb.svg"></a>
+             
+                  <a class="img-social" target="_blank" href="https://www.instagram.com/eteportodigital/"><img src="img/rede-instagram.svg"></a>
+              
+                  
+              </li>
 
+          </ul>
+      </div>
+      <div class="cr">
+        © 2023 everton santos - Todos os direitos reservados.
+      </div>
+  </footer>
+    <script src="js/mobile-navbar.js"></script>
+  </body>
 </html>
